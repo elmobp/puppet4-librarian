@@ -1,0 +1,1 @@
+{"virtualbox":{"/tmp/puppet":{"guestpath":"/tmp/puppet","hostpath":"/Users/michaelbaker/Documents/Clients/BulletProof/puppet4-librarian/test2/puppet","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/michaelbaker/Documents/Clients/BulletProof/puppet4-librarian/test2","disabled":false,"__vagrantfile":true}}}

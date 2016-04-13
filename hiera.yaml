@@ -1,0 +1,9 @@
+---
+:backend:
+  - yaml
+:hierarchy:
+  - "%{::hostname}"
+  - "common"
+
+:yaml:
+  :datadir:/tmp/puppet

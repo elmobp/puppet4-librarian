@@ -1,0 +1,15 @@
+---
+users_common:
+  bp:
+    ensure: present
+    uid: 500
+    groups:
+      - sudo
+    comment: 'MB'
+    managehome: true
+    password: '$6$lwlaZaXHENh$JbpzCCiahKCl6qlGpIE1LYe3/bmlMvgA7a/A5wFarWsqj2OuqTNTNmyzb1E6LVrfDfpdA2d1oJcaL9hNXm494/'
+    shell:  /bin/bash
+    ssh_authorized_keys:
+      userkey:
+        type: 'ssh-rsa'
+        key:  'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/3Wi5vvFEPJdQ6g4eFaYT80Hb3McqE8cLc1JJLneYfuCYGEQLvudzbadWt9iUBvMv2KBD106v/RaYFoMlrHXTydhy9sFWClKH+UMMNaP9chttxHFh2HHwltxeQ5HYLX8Qwy/JVgg31mn/KgiXySrFFEAFd5Qdm64RZ/RdzisCRM/V6FieU6/Ub2H4mM2K7WzaRzdAZ7hyIZBEXOi+A5o8UpC1fgpECRMo8cJxDqzyYrWD392cQIy6wgBUOLCivjql+h0JgbTp6Y8B6+Bd+sKz1wOPmulAtokURnEqQwco/N3lYe6uMob6gxFWgmfo+NINdU6quXoAY7T2l1tXBv/x michaelbaker@Michaels-MacBook-Pro.local'
